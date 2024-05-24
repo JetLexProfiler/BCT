@@ -1,0 +1,233 @@
+body {
+    background-image: url(ЗаднийФон.png);
+}
+.main-navigation a:hover {
+    transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    color: #00ade4;
+}
+
+
+.LOGO{
+    text-align: center;
+}
+.LOGO img {
+    height: auto;
+    width: auto;
+    background-image: url('НазваниеСайта.png');
+}
+
+.site-header{
+    color: #ffffff;
+    padding: 15px;
+    text-align: start;
+}
+.site-header h1{
+    margin: 0;
+    font-size: 1.0em;
+}
+.main-navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main-navigation ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-navigation li{
+    display: inline;
+    margin-right: 20px;
+}
+.main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.License{
+    position: relative;
+    top: 700px;
+    left: 1450px;
+    color: white;
+}
+
+
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.drop{
+    background-color: color(srgb red green blue);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+.drop-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 3px 8px 16px 3px rgb(0, 4, 255);
+    z-index: 1;
+}
+.category{
+    padding: 6px;
+    box-shadow: 3px 8px 16px 3px rgb(255, 0, 0);
+    background-color: rgb(221, 208, 132);
+}
+.subcategory{
+    padding-left: 8px;
+    box-shadow: 3px 8px 16px 3px rgb(43, 255, 0);
+}
+.drop-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 14px;
+    transition: background-color 0.3s ease;
+}
+.drop-content a:hover{
+    background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+.account-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.account-icon img{
+    width: 30px;
+    height: auto;
+}
+
+.main-navigation{
+    background-color: #cf1212a6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(51, 48, 211, 0.685);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.menu-three {
+    text-align: center;
+}
+.menu-category{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.text {
+    padding-left: 18%;
+    color: #000000;
+}
+
+.featured-product{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 5px solid #32e63bad;
+    margin-bottom: 20px;
+    width: 45%;
+}
+.product-image{
+    width: 300px;
+    height: 300px;
+    border: 3px dashed #000000;
+    overflow: hidden;
+}
+.product-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-info{
+    flex: 1;
+}
+.product-name{
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #000000;
+}
+.product-description{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.product-price{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.old-price{
+    text-decoration: line-through;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.new-price {
+    color: red;
+    font-weight: bold;
+}
+.add-to-cart-button{
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+.add-to-cart-button:hover{
+    background-color: #555;
+}
+
+
+
+
+
+
+
+.sale-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sale-timer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sale-timer-number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .sale-timer-label {
+    font-size: 16px;
+    color: #ccc;
+  }
